@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+        <div class="mainDiv">
+            <div class="navContainer">
+                <div class="nav">
+                
+                    <img src = "htmlLogo.svg" width="auto" height="55px" class = "navLogo"/>
+                    <div class="navBtnContainer">
+                        <button class="navBtn" onclick="contact()">Contact</button>
+                        <button class="navBtn" onclick="about()">About</button>
+                        <button class="navBtn" onclick="work()">Work</button>
+                        <button class="navBtn" onclick="home()">Home</button>
+                </div>
+            </div>
+        </div>
+            <div id="homeSection" class="section1">
+            <div class="openingStatement">
+                <h1>Hello, I am Akwasi Frimpong</h1>
+                <p>I'm a software developer with 2 years of industry experience. I'm passionate about software and all things tech.
+            </div>
+            <div class="openImg"><img class="imgOpen" src="download.png" alt="Me" width="auto" height="400">
+                
+            </div>
+          
+            
+        </div>
+        <div id="workSection" class="wholeWorkSection">
+        <div class="workSection">
+            <div class="workContent"><h1 class="workHeading">Work Experience</h1>
+                <h2>Datacom</h2>
+                <h3 >Technical Salesforce Consultant</h3>
+                <ul>
+                    <li>Liaised with clients to gather requirements.</li>
+                    <li>Created multiple complex LWC using javascript.
+                    </li>
+                    <li>Used APEX to manage API calls.
+                    </li>
+                    <li>Used HTML and CSS to style component based off FIGMA specifications.
+                    </li>
+                    <li>Used Javascript to interact with APIs, and manipulated the data.
+                    </li>
+                    <li>Created documentation
+                    </li>
+                    <li>Used Git and Azure <span >DevOp, to collaborate with multiple developer.</span>
+                    </li>
+                    <li><span>Worked in an AGILE environment</span>
+                    </li>
+            
+
+
+
+                </ul>
+                <h3>Graduate technical Salesforce Consultant</h3>
+                <ul>
+                    <li>Demoed components on a weekly basis to clients
+                    </li>
+                    <li>Story pointed and delivers stories with deadlines.
+                    </li>
+                    <li>Created test classes, for both mine and other developers code.
+                    </li>
+
+                    <li>Raised bugs, fixed bugs, and collaborated with testers.
+                    </li>
+
+                    <li>Configured many outbox functionality, such as permission sets, profiles, and flows.</li>
+
+
+
+                </ul>
+                <h3>Salesforce Intern</h3>
+                <ul>
+                    <li>Gather requirements from a internal stake holders
+                    </li>
+                    <li>Created an internal end to end project using Service cloud
+                    </li>
+
+                    <li>Create case management system
+                    </li>
+
+                    <li>Create multiple reports based of client requiremnets
+                    </li>
+
+                    <li>Work with and collaborated with other interns 
+                    </li>
+
+                    <li>Demo the solution back to internal client</li>
+
+                </ul>
+         
+            </div>
+         
+        </div>
+        <div class="workSectionDiagonal"></div>
+        </div>
+        <div id="aboutSection" class="aboutSection">
+            <div class="aboutleft"><div class="aboutContent"><h1 class="white"> About Me</h1>
+                <p class="white">Hi, I'm Akwasi a proud Kiwi with roots from Samoa and Ghana. I grew up in central Auckland, and went from 
+                    Mt Roskill Primary, all the way to Mt Roskill Grammar, during this time I found my love for tech, and decided to study computer science
+                    at the University of Auckland. There I equipped myself with the skills I needed to thrive in the tech industry. After university I
+                    spent 2 years as a salesforce developer at Datacom, where I further honed my skills. Yet, beyound coding I enjoy being active and 
+                    spend alot my time diving into random sports/hobbies. Intially it was basketball, then muay thai, and now I find my self diving into the world of dance.   </p>
+                </div>
+            </div>
+            <div class="aboutright">
+                <img class="gallery two active " src="graduation.jpeg" width="auto" height="100%"/>
+                <img class="gallery one" src="cute kid me.jpeg" width="auto" height="100%"/>
+                <img class="gallery three " src="muay thai.png" width="auto" height="100%"/>
+                <img class="gallery four" src="hip-hop domi.jpeg" width="auto" height="100%"/>
+                <img class="gallery five" src="salsa ball.jpeg" width="auto" height="100%"/>
+                <img class="gallery six" src="Viva Dance.jpeg" width="auto" height="100%"/>
+                <div class="buttonContainer">
+                    <button class="galleryButton" onclick="prev(-1)"><</button>
+                <button class="galleryButton" onclick="next(1)">></button>
+                </div>
+
+
+
+
+            </div>
+
+            
+        </div>
+        <div id="contactSection" class="contact">
+            <div class="contactLeft">
+                <img src="call-me.gif" class="call" height="400px"; width="auto"/>
+
+              
+            </div>
+            <div class="contactRight">
+                <div class="contactContent">
+                    <h1 class="white">Contact Me</h1>
+                    <p class="white"> Find me on <a href="https://www.linkedin.com/in/akwasi-frimpong-262864217/">Linkedin</a></p>   
+                    <p class="white">Email: akwasijfrimpong@gmail.com</h2> 
+                    <p class="white">Github: <a href="https://www.linkedin.com/in/akwasi-frimpong-262864217/">https://github.com/akwasijfrimpong</a></p>
+                    <p class="white">Trailhead:<a href="https://www.salesforce.com/trailblazer/profile"> https://www.salesforce.com/trailblazer/profile </a></p>
+                    <p class="white">Leetcode: <a href="https://leetcode.com/akwasijfrimpong/"> https://leetcode.com/akwasijfrimpong/ </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    </body>
+  
+	<script src="index.js"></script>
+  </body>
+</html>
